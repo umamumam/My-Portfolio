@@ -356,7 +356,7 @@ export default function Hero() {
               >
                 {/* Slow breathing camera lens zoom */}
                 <img
-                  src="/coder_hero.png"
+                  src="./coder_hero.png"
                   alt="Miftachul Umam Station"
                   style={{
                     width: "100%",

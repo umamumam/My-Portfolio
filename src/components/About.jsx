@@ -286,7 +286,7 @@ export default function About() {
                 }}
               >
                 <img
-                  src="/profile_avatar.png"
+                  src="./profile_avatar.png"
                   alt="Miftachul Umam Portrait"
                   style={{
                     width: '100%',
@@ -454,7 +454,7 @@ export default function About() {
                 </div>
                 <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
                   <a
-                    href="/CV Miftachul Umam.pdf"
+                    href="./CV Miftachul Umam.pdf"
                     download="CV Miftachul Umam.pdf"
                     className="neon-button neon-button-glow clickable"
                     style={{ padding: '8px 18px', fontSize: '0.85rem', borderRadius: '9999px' }}
@@ -481,7 +481,7 @@ export default function About() {
               {/* PDF Viewer */}
               <div style={{ flex: 1, overflow: 'hidden', background: '#111118' }}>
                 <iframe
-                  src="/CV Miftachul Umam.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                  src="./CV Miftachul Umam.pdf#toolbar=0&navpanes=0&scrollbar=0"
                   title="CV Miftachul Umam"
                   style={{ width: '100%', height: '100%', minHeight: '65vh', border: 'none' }}
                 />
